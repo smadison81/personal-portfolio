@@ -95,8 +95,8 @@ export const caseStudies = [
     duration: "5 years",
     role: "Applications Systems Analyst",
     outcomes: [
-      { metric: "15x", label: "User growth (20 → 300+)" },
-      { metric: "10+", label: "Departments consolidated" },
+      { metric: "20 → Enterprise", label: "User growth across organization" },
+      { metric: "Multi-Dept", label: "Departments onboarded at scale" },
       { metric: "100%", label: "Protocol lifecycle coverage" },
     ],
     context: "MD Anderson Cancer Center manages thousands of clinical trials across multiple departments. Teams were using non-centralized systems including spreadsheets, paper records, and legacy databases, creating data silos and operational inefficiencies.",
@@ -124,7 +124,7 @@ export const caseStudies = [
     },
     techStack: ["Quickbase", "Workflows", "Automation", "Role-based access", "Custom reporting"],
     whatNext: "The application's customizable design allowed continued expansion. Future phases included integrations with campus systems for enhanced automation, pre-clinical trial management modules, HR planning, operations tracking, and license management.",
-    oneMinuteSummary: "Built a comprehensive clinical trials management application that grew from serving 20 users in a single department to over 300 users across 10+ departments. The system replaced fragmented spreadsheets and legacy databases with a unified platform covering the entire protocol lifecycle, enabling cross-department collaboration and real-time visibility into trial status.",
+    oneMinuteSummary: "Built a comprehensive clinical trials management application that grew from serving 20 users in a single department to enterprise-wide adoption across multiple departments. The system replaced fragmented spreadsheets and legacy databases with a unified platform covering the entire protocol lifecycle, enabling cross-department collaboration and real-time visibility into trial status.",
   },
   {
     id: "remote-imaging",
@@ -241,8 +241,8 @@ export const caseStudies = [
 
 export const microWins = [
   {
-    title: "20 to 300+ Users",
-    result: "Scaled Clinical Trials app from single department to enterprise-wide adoption at MD Anderson",
+    title: "20 to Enterprise-Wide",
+    result: "Scaled Clinical Trials app from single department to organization-wide adoption at MD Anderson",
     tags: ["Scale", "Adoption"],
   },
   {
