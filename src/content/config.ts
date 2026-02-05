@@ -456,6 +456,29 @@ export const awards = [
 
 export const certifications = [
   {
+    name: "Coding Boot Camp",
+    issuer: "UT Austin Center for Professional Education",
+    date: "Dec 2019",
+    skills: ["HTML", "Node.js", "MongoDB", "JavaScript", "React.js", "MySQL"],
+  },
+  {
+    name: "PMI Citizen Developer Practitioner",
+    issuer: "Project Management Institute",
+    date: "May 2023",
+    credentialId: "3539432",
+  },
+  {
+    name: "ITIL V3 Foundation",
+    issuer: "AXELOS Global Best Practice",
+    date: "Jul 2014",
+    credentialId: "GCI-2014-4841",
+  },
+  {
+    name: "CompTIA A+",
+    issuer: "CompTIA",
+    credentialId: "COMP001000804730",
+  },
+  {
     name: "Pipelines Builder",
     issuer: "Quickbase",
     date: "Sep 2025",
@@ -482,29 +505,6 @@ export const certifications = [
     date: "Aug 2025",
     expires: "Aug 2027",
     credentialId: "157859785",
-  },
-  {
-    name: "PMI Citizen Developer Practitioner",
-    issuer: "Project Management Institute",
-    date: "May 2023",
-    credentialId: "3539432",
-  },
-  {
-    name: "Coding Boot Camp",
-    issuer: "UT Austin Center for Professional Education",
-    date: "Dec 2019",
-    skills: ["HTML", "Node.js", "MongoDB", "JavaScript", "React.js", "MySQL"],
-  },
-  {
-    name: "ITIL V3 Foundation",
-    issuer: "AXELOS Global Best Practice",
-    date: "Jul 2014",
-    credentialId: "GCI-2014-4841",
-  },
-  {
-    name: "CompTIA A+",
-    issuer: "CompTIA",
-    credentialId: "COMP001000804730",
   },
 ]
 
