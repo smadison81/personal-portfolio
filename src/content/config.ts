@@ -548,6 +548,97 @@ export const aboutContent = {
   ],
 }
 
+export const workHistory = [
+  {
+    id: "quickbase",
+    company: "Quickbase",
+    role: "Lead Presales Implementation Consultant",
+    location: "Remote / Greater Houston",
+    startDate: "2021",
+    endDate: "Present",
+    current: true,
+    highlights: [
+      "Lead technical presales engagements for enterprise accounts",
+      "Design and deliver proof-of-concept solutions that convert to closed deals",
+      "Partner with sales teams to scope implementations and reduce delivery risk",
+      "Awarded President's Club for exceeding performance targets",
+    ],
+    technologies: ["Quickbase", "Pipelines", "REST APIs", "Procore", "AI Tools"],
+  },
+  {
+    id: "quickbase-ic",
+    company: "Quickbase",
+    role: "Implementation Consultant",
+    location: "Remote / Greater Houston",
+    startDate: "2019",
+    endDate: "2021",
+    highlights: [
+      "Delivered enterprise implementations across construction, manufacturing, and professional services",
+      "Built complex integrations connecting Quickbase to external systems",
+      "Developed reusable solution templates and accelerators",
+    ],
+    technologies: ["Quickbase", "Integrations", "Workflows", "Training"],
+  },
+  {
+    id: "mdanderson",
+    company: "MD Anderson Cancer Center",
+    role: "Applications Systems Analyst",
+    location: "Houston, TX",
+    startDate: "2014",
+    endDate: "2019",
+    highlights: [
+      "Built clinical trials management system that scaled from 20 users to enterprise-wide",
+      "Designed data models and workflows for protocol lifecycle management",
+      "Led requirements gathering across multiple research departments",
+      "Created integrations with campus systems for automated data flow",
+    ],
+    technologies: ["Quickbase", "Healthcare IT", "Data Modeling", "Integrations"],
+  },
+  {
+    id: "uthsc",
+    company: "UT Health Science Center",
+    role: "IT Support Specialist",
+    location: "Houston, TX",
+    startDate: "2012",
+    endDate: "2014",
+    highlights: [
+      "Supported faculty, staff, and students across multiple campus locations",
+      "Recognized as Best Employee out of 800+ staff members",
+      "Implemented process improvements that reduced ticket resolution time",
+    ],
+    technologies: ["Windows", "Active Directory", "ITIL", "Help Desk"],
+  },
+  {
+    id: "usoncology",
+    company: "US Oncology / Texas Oncology",
+    role: "IT Field Technician",
+    location: "Houston, TX",
+    startDate: "2010",
+    endDate: "2012",
+    highlights: [
+      "Directed IT operations across 30+ clinic sites in Gulf Coast region",
+      "Managed 1000+ devices including maintenance and refresh cycles",
+      "Built strong relationships with physicians and clinical staff",
+    ],
+    technologies: ["Healthcare IT", "Field Support", "Device Management"],
+  },
+  {
+    id: "team-industrial",
+    company: "Team Industrial Services",
+    role: "Sr. Desktop Technician / Team Lead",
+    location: "Alvin, TX",
+    startDate: "2008",
+    endDate: "2010",
+    highlights: [
+      "Designed remote imaging system that cut deployment time by 85%",
+      "Led site server infrastructure rollout to 100+ branch locations",
+      "Developed companywide imaging and software policies",
+      "Reduced shipping costs by $100K+ annually",
+    ],
+    technologies: ["Altiris", "Windows Server", "PXE Boot", "Active Directory"],
+  },
+]
+
 export const footerContent = {
   tagline: "Built with caffeine, good judgment, and an appropriate amount of AI assistance.",
 }
