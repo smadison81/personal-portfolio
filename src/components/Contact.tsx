@@ -14,14 +14,30 @@ export function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
 
+  const [error, setError] = useState<string | null>(null)
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000))
-    setIsSubmitting(false)
-    setIsSubmitted(true)
-    // In production, you'd send this to your API or form service
+    setError(null)
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formState),
+      })
+
+      if (!response.ok) {
+        throw new Error('Failed to send message')
+      }
+
+      setIsSubmitted(true)
+    } catch (err) {
+      setError('Failed to send message. Please try again or email directly.')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -114,6 +130,12 @@ export function Contact() {
                     placeholder="Tell me about your project or what you'd like to discuss..."
                   />
                 </div>
+
+                {error && (
+                  <div className="p-3 bg-red-500/10 border border-red-500/20 rounded-lg text-red-400 text-sm">
+                    {error}
+                  </div>
+                )}
 
                 <button
                   type="submit"
