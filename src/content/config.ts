@@ -22,9 +22,9 @@ export const heroContent = {
   ctaSecondary: "Let's Talk",
   proofChips: [
     { label: "15+ Years", sublabel: "Technology & Implementation" },
-    { label: "4+ Years", sublabel: "Quickbase Ecosystem" },
-    { label: "300+", sublabel: "Users Enabled" },
-    { label: "Expert Builder", sublabel: "Quickbase Certified" },
+    { label: "10+ Years", sublabel: "Low Code Platforms" },
+    { label: "1000s", sublabel: "Enterprise Users Enabled" },
+    { label: "Full Stack", sublabel: "Developer" },
   ],
 }
 
