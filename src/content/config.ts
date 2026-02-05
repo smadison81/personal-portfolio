@@ -437,6 +437,77 @@ export const toolsAndEcosystems = [
   },
 ]
 
+export const awards = [
+  {
+    title: "President's Club",
+    issuer: "Quickbase",
+    date: "January 2025",
+    description: "Awarded for exceeding performance targets and delivering exemplary service",
+    highlight: true,
+  },
+  {
+    title: "Best Employee Award",
+    issuer: "UT Health Science Center",
+    date: "2009",
+    description: "Recognized out of 800+ employees for outstanding performance",
+    highlight: false,
+  },
+]
+
+export const certifications = [
+  {
+    name: "Pipelines Builder",
+    issuer: "Quickbase",
+    date: "Sep 2025",
+    expires: "Sep 2027",
+    credentialId: "159828191",
+  },
+  {
+    name: "Expert Builder",
+    issuer: "Quickbase",
+    date: "Sep 2025",
+    expires: "Sep 2027",
+    credentialId: "159827460",
+  },
+  {
+    name: "App Builder",
+    issuer: "Quickbase",
+    date: "Sep 2025",
+    expires: "Sep 2027",
+    credentialId: "159825911",
+  },
+  {
+    name: "App Foundations",
+    issuer: "Quickbase",
+    date: "Aug 2025",
+    expires: "Aug 2027",
+    credentialId: "157859785",
+  },
+  {
+    name: "PMI Citizen Developer Practitioner",
+    issuer: "Project Management Institute",
+    date: "May 2023",
+    credentialId: "3539432",
+  },
+  {
+    name: "Coding Boot Camp",
+    issuer: "UT Austin Center for Professional Education",
+    date: "Dec 2019",
+    skills: ["HTML", "Node.js", "MongoDB", "JavaScript", "React.js", "MySQL"],
+  },
+  {
+    name: "ITIL V3 Foundation",
+    issuer: "AXELOS Global Best Practice",
+    date: "Jul 2014",
+    credentialId: "GCI-2014-4841",
+  },
+  {
+    name: "CompTIA A+",
+    issuer: "CompTIA",
+    credentialId: "COMP001000804730",
+  },
+]
+
 export const testimonials = [
   {
     quote: "Stephen is one of the most selfless, self-motivated, and customer focused people I have ever had the pleasure of working with. He made every person he supported feel as if their incident was the only one he was focused on, without ever letting other items slip. His intangibles set him apart from any other candidate you may be considering.",

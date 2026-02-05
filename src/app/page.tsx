@@ -8,6 +8,7 @@ import {
   MicroWins,
   PlaybookTimeline,
   ToolChips,
+  AwardsCertifications,
   Testimonials,
   About,
   Contact,
@@ -25,6 +26,7 @@ export default function Home() {
         <MicroWins />
         <PlaybookTimeline />
         <ToolChips />
+        <AwardsCertifications />
         <Testimonials />
         <About />
         <Contact />
