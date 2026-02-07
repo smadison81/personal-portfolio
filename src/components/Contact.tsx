@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Send, Calendar, Mail, MapPin, Clock } from 'lucide-react'
+import { Send, Calendar, MapPin, Clock } from 'lucide-react'
 import { siteConfig } from '@/content/config'
 
 export function Contact() {
@@ -182,25 +182,6 @@ export function Contact() {
               </div>
             </a>
 
-            {/* Direct email */}
-            <a
-              href={`mailto:${siteConfig.email}`}
-              className="block p-6 bg-surface-900/60 border border-surface-700/50 rounded-xl hover:border-accent-500/30 transition-colors group"
-            >
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 rounded-lg bg-accent-500/10 flex items-center justify-center group-hover:bg-accent-500/20 transition-colors">
-                  <Mail className="w-6 h-6 text-accent-400" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-white mb-1">
-                    Email Directly
-                  </h3>
-                  <p className="text-sm text-surface-400">
-                    {siteConfig.email}
-                  </p>
-                </div>
-              </div>
-            </a>
 
             {/* Location & timezone */}
             <div className="grid sm:grid-cols-2 gap-4">
